@@ -13,6 +13,7 @@ function createGrid(gridSize) {
 }
 
 function etchADiv(e) {
+    if (e.target == etchDiv) { return }
     e.target.classList.add('etched')
 }
 
