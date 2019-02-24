@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+#etch {
+    margin-top: 20px;
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.etched {
+    background: black;
+}
