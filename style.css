@@ -4,11 +4,16 @@ body {
 
 #etch {
     margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
     width: 800px;
     height: 800px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+    border: solid;
+    border-color: black;
+    border-width: 5px;
 }
 
 .etched {
